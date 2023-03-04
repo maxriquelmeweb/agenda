@@ -121,7 +121,7 @@ const Formulario = ({ tareas, setTareas, tarea, setTarea, estados }) => {
                 />
                 <button
                     type='submit'
-                    className={`w-full uppercase font-bold ${editando ? "bg-orange-400 hover:bg-orange-600" : "bg-green-400 hover:bg-green-600"}  mt-7 p-2 rounded-md border-2 `}
+                    className={`w-full uppercase font-bold ${editando ? "bg-orange-400 hover:bg-orange-600" : "bg-green-400 hover:bg-green-600"}  mt-8 p-2 rounded-md border-2 `}
                 >
                     {editando ? 'Actualizar' : 'Agregar'}
                 </button>
